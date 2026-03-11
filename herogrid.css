@@ -1,0 +1,9 @@
+.herogrid{
+    height: 400px;
+    background-color: purple;
+    margin-top: 100px;
+}
+.herogrid h1{
+
+    color: blue;
+}
