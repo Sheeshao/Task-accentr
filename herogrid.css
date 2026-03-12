@@ -1,9 +1,24 @@
-.herogrid{
+.herogrid {
+    padding: 50px 100px;
     height: 400px;
     background-color: purple;
-    margin-top: 100px;
+    margin-top: 85px;
 }
-.herogrid h1{
 
-    color: blue;
+.herogrid_content h1 {
+    font-family: sans-serif;
+    font-size: 100px;
+    color: white
+}
+
+.herogrid_content h1:nth-of-type(2) {
+    margin-left: 480px;
+}
+
+.herogrid_title2 img {
+    width: 150px;
+}
+
+.herogrid_title2 h1 {
+    margin-left: 570px;
 }

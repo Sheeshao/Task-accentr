@@ -8,13 +8,13 @@ body {
 }
 
 nav {
-  padding: 5px 10px;
+  padding: 30px 97px;
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 85px;
   width: 100%;
   background-color: red;
   box-sizing: border-box;
@@ -32,12 +32,19 @@ ul {
   background-color: blue;
   width: 700px;
   font-family: sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   gap: 30px;
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.nav_third_group{
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav :is(.country, ul) {
@@ -48,4 +55,9 @@ nav :is(.country, ul) {
 
 li:is(:hover, :active) {
   color: grey;
+}
+
+.material-symbols-outlined{
+  
+  color: white;
 }
