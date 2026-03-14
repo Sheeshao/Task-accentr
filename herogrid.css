@@ -1,24 +1,86 @@
 .herogrid {
-    padding: 50px 100px;
     height: 400px;
     background-color: purple;
     margin-top: 85px;
 }
 
-.herogrid_content h1 {
+.herogrid_content{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 56, 56);
+}
+
+
+.hcontent{
+    max-width: 1400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.hgridbox{
+    background-color: blue;
+    
+}
+
+.hgridbox :is(h1) {
     font-family: sans-serif;
-    font-size: 100px;
-    color: white
+    font-size: 80px;
 }
 
-.herogrid_content h1:nth-of-type(2) {
-    margin-left: 480px;
+.herogrid_title2{
+    margin-left: 260px;
 }
 
-.herogrid_title2 img {
-    width: 150px;
+.hgridbox2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: brown;
+    height: auto;
+    max-width: 300px;
 }
 
-.herogrid_title2 h1 {
-    margin-left: 570px;
+.hgridbox img {
+    width: 110px;
 }
+
+.hgridbox2 :is(h1, p){
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+.hgridbox2 h1{
+    font-size: 20px;
+    
+}
+
+.hgridbox2_actioner{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.hgridbox2_actioner .material-symbols-outlined {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    font-size: 17px; 
+    font-weight: 200;
+    
+}
+
+.hgridbox2 p{
+    font-size: 15px;
+}
+
