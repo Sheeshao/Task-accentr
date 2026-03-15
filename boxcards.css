@@ -4,17 +4,17 @@
     background-color: red;
 }
 
-.cardcontenbox{
-    background-color: blue;
-    width: 260px;
-    height: 390px;
+.card_content :is(.card_content_main1, .card_content_main2)
+{   
+    gap: 65px;
+    background-color: pink;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.card_content :is(.card_content_main1, .card_content_main2)
-{
-    padding: 40px 0px;
-    gap: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.card_content img{
+    width: 250px;
+    height: 400px;
 }

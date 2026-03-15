@@ -40,11 +40,27 @@ ul {
   align-items: center;
 }
 
+@media (max-width: 1100px) 
+{
+    ul
+    {
+      display: none;
+    }
+  
+}
+
 .nav_third_group{
   gap: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .nav_third_group{
+      display: none;
+    }
+  
 }
 
 nav :is(.country, ul) {
