@@ -16,7 +16,6 @@ nav {
   align-items: center;
   height: 85px;
   width: 100%;
-  background-color: red;
   box-sizing: border-box;
 }
 
@@ -29,7 +28,6 @@ nav {
 }
 
 ul {
-  background-color: blue;
   width: 700px;
   font-family: sans-serif;
   font-size: 20px;
@@ -69,11 +67,21 @@ nav :is(.country, ul) {
   color: white;
 }
 
-li:is(:hover, :active) {
+.li_arrow:is(:hover, :active) {
   color: grey;
+}
+
+.nav li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .material-symbols-outlined{
   
   color: white;
+}
+
+.li_arrow{
+  display: flex;
 }

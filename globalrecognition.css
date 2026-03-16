@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
-    height: 800px;
+    height: 600px;
 }
 
 .globalrecog_content h1{
+    color: white;
     text-align: center;
     font-size: 110px;
 }

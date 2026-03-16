@@ -1,10 +1,5 @@
-.card_content {
-  background-color: red;
-}
-
 .card_content_main1,
 .card_content_main2 {
-  background-color: pink;
   gap: 30px;
   padding: 40px 60px;
   display: flex;
