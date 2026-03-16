@@ -9,8 +9,8 @@
 
 .reviewsection img {
   padding-right: 70px;
-  width: 680px;
-  height: 500px;
+  width: 550px;
+  height: 350px;
 }
 
 .review2 {
@@ -22,7 +22,7 @@
 }
 
 .review2 h4 {
-  font-size: 35px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
@@ -33,5 +33,5 @@ p {
 }
 
 .review2 p {
-  font-size: 25px;
+  font-size: 1rem;
 }

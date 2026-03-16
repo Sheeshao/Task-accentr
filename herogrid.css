@@ -6,7 +6,6 @@
 
 .herogrid_content {
   padding: 50px 100px;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +13,6 @@
 }
 
 .hcontent {
-  max-width: 1400px;
   background-color: rgb(255, 255, 255);
   display: flex;
   gap: 25px;
@@ -33,7 +31,7 @@
 }
 
 .herogrid_title2 {
-  margin-left: 260px;
+  margin-left: 150px;
 }
 
 @media (max-width: 1100px) {

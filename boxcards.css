@@ -1,19 +1,21 @@
 .card_content {
-  width: auto;
-  height: auto;
   background-color: red;
 }
 
-.card_content :is(.card_content_main1, .card_content_main2) {
+.card_content_main1,
+.card_content_main2 {
   background-color: pink;
-  gap: 90px;
+  gap: 30px;
   padding: 40px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card_content img {
-  width: 350px;
+  width: 260px;
   height: 480px;
 }
+
+

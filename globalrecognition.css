@@ -1,0 +1,12 @@
+.global_recognition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 800px;
+}
+
+.globalrecog_content h1{
+    text-align: center;
+    font-size: 110px;
+}

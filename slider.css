@@ -1,0 +1,59 @@
+.slider_container {
+    padding: 50px 0px;
+    background-color: blue;
+}
+
+.slider_content {
+    gap: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: red;
+}
+
+.slider_content img {
+    width: 600px;
+    height: 340px;
+}
+
+.slider_descript {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.slider_descript h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.slider_descript p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider_action button {
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    font-weight: 700;
+}
+
+.slider_action{
+    display: flex;
+    gap: 10px;
+}
+
+.slider_action .material-symbols-outlined {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-color: purple;
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+}
