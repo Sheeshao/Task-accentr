@@ -1,20 +1,19 @@
-.card_content{
-    width: auto;
-    height: auto;
-    background-color: red;
+.card_content {
+  width: auto;
+  height: auto;
+  background-color: red;
 }
 
-.card_content :is(.card_content_main1, .card_content_main2)
-{   
-    gap: 65px;
-    background-color: pink;
-    padding: 40px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card_content :is(.card_content_main1, .card_content_main2) {
+  background-color: pink;
+  gap: 90px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card_content img{
-    width: 250px;
-    height: 400px;
+.card_content img {
+  width: 350px;
+  height: 480px;
 }

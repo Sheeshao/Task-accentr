@@ -1,89 +1,90 @@
 .herogrid {
-    height: 400px;
-    background-color: purple;
-    margin-top: 85px;
+  height: 400px;
+  background-color: purple;
+  margin-top: 85px;
 }
 
-.herogrid_content{
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(71, 56, 56);
+.herogrid_content {
+  padding: 50px 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(71, 56, 56);
 }
 
-
-.hcontent{
-    max-width: 1400px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    gap: 25px;
-    justify-content: space-between;
-    align-content: center;
-    
+.hcontent {
+  max-width: 1400px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-content: center;
 }
 
-
-
-.hgridbox{
-    background-color: blue;
-    height: auto;
-    
+.hgridbox {
+  background-color: blue;
+  height: auto;
 }
 
 .hgridbox :is(h1) {
-    font-family: sans-serif;
-    font-size: 80px;
+  font-family: sans-serif;
+  font-size: 80px;
 }
 
-.herogrid_title2{
-    margin-left: 260px;
+.herogrid_title2 {
+  margin-left: 260px;
 }
 
-.hgridbox2{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: brown;
-    height: auto;
-    max-width: 300px;
+@media (max-width: 1100px) {
+  .herogrid_title2 img {
+    display: none;
+  }
+
+  .herogrid_title2 {
+    margin-left: 0;
+  }
+}
+
+.hgridbox2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: brown;
+  height: auto;
+  max-width: 300px;
 }
 
 .hgridbox img {
-    width: 110px;
+  width: 110px;
 }
 
-.hgridbox2 :is(h1, p){
-    font-family: sans-serif;
-    color: white;
-    
+.hgridbox2 :is(h1, p) {
+  font-family: sans-serif;
+  color: white;
 }
 
-.hgridbox2 h1{
-    font-size: 20px;
-    
+.hgridbox2 h1 {
+  font-size: 20px;
 }
 
-.hgridbox2_actioner{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
+.hgridbox2_actioner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .hgridbox2_actioner .material-symbols-outlined {
-    background-color: purple;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: 20px;
-    font-size: 17px; 
-    font-weight: 200;
-    
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  font-size: 17px;
+  font-weight: 200;
 }
 
-.hgridbox2 p{
-    font-size: 15px;
+.hgridbox2 p {
+  font-size: 15px;
 }
-
